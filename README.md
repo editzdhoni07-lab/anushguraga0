@@ -1,2 +1,158 @@
-# anushguraga0
-e
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>1 Year Anniversary ❤️</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #ffe6f0, #fff0f5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d6336c;
+    overflow-x: hidden;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 10px solid gold;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 40px rgba(255,215,0,0.8);
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    color: #ff3366;
+    text-shadow: 2px 2px 8px #fff;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 20px auto;
+    max-width: 900px;
+  }
+
+  .images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px;
+    margin-top: 20px;
+    justify-items: center;
+  }
+
+  .images img {
+    width: 100%;
+    max-width: 400px;  /* a bit bigger to look nice */
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+  }
+
+  .images img:hover {
+    transform: scale(1.05);
+  }
+
+  audio {
+    margin: 30px auto 10px auto;
+    display: block;
+  }
+
+  /* Floating celebration elements */
+  .falling {
+    position: fixed;
+    font-size: 2rem;
+    animation: fall linear infinite;
+    opacity: 0.9;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  @keyframes fall {
+    0% {
+      transform: translateY(-10vh) rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(110vh) rotate(360deg);
+      opacity: 0;
+    }
+  }
+
+  /* Glow text */
+  .proposal {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff0066;
+    text-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 30px gold;
+    animation: glow 2s infinite alternate;
+  }
+
+  @keyframes glow {
+    from { text-shadow: 0 0 5px gold, 0 0 10px gold, 0 0 15px gold; }
+    to { text-shadow: 0 0 20px gold, 0 0 40px gold, 0 0 60px gold; }
+  }
+</style>
+</head>
+<body>
+
+  <div class="container">
+    <h1> ❤️‍🩹Happy 1st Anniversary My Love❤️‍🩹 <br>Anush Guragain + Aashma Giri</h1>
+    <p>
+      My love,<br><br>
+      I can’t believe it’s already been one year since we started this beautiful journey together✨. These twelve months have been full of memories💝. I’ll never forget the fun moments, the laughter, the adventures, and yes… even the times we fought💞. We’ve had our ups and downs, and sometimes I get angry, but no matter what, my love for you always wins. Even in those moments, deep down, I just want to hold you close💕.<br><br>
+
+      We’ve shared so much together silly jokes, talks, random adventures, and even quiet moments where no words were needed🥺. Every fight we’ve had only made me realize how much I don’t want to lose you🥹. You are the person I want to run to when something amazing happens and the one I want beside me when life gets tough💕. I always try to share my problems with you and gives my best to make you feel special. Don't hesitate to share a problems with me sanuuu💗.<br><br>
+      Aashma, I’ve seen my future with you. I imagine us building a home together, chasing our dreams side by side, and growing old while still laughing at each other’s silly habits💓. You’re not just my love, you’re my best friend, my safe place, and the one who makes me believe in forever. You are my confort zone.Smile automatically come when I see you😊.<br><br>
+
+      So today, as we celebrate our first anniversary, I want to take this moment to ask you something that comes straight from my heart something I’ve been sure about for a long time🫂:<br><br>
+
+      <span class="proposal">Will you marry me, Aashma? ❤️</span><br><br>
+
+      No matter where life takes us, I promise to choose you every single day Ass🥹🫂😘❤️‍🔥❣️. Through laughter, through tears, through every fight and every kiss, I will love you more than yesterday and less than tomorrow💌. I love you so much sanu😘💗🥹❤️.<br><br>
+
+      Forever yours ,<br>
+      <span class="proposal"> Anush💕❤️</span><br><br>
+    </p>
+
+    <div class="images">
+      <img src="C:/Users/Lenovo/Downloads/WhatsApp Image 2025-07-13 at 6.44.33 AM.jpeg" alt="Couple Picture" />
+      <img src="C:/Users/Lenovo/Downloads/WhatsApp Image 2025-07-13 at 6.43.29 AM.jpeg" alt="Couple Picture" />
+      <img src="C:/Users/Lenovo/Downloads/WhatsApp Image 2025-07-13 at 6.42.40 AM.jpeg" alt="Couple Picture" />
+      <img src="C:/Users/Lenovo/Downloads/WhatsApp Image 2025-07-13 at 6.43.14 AM.jpeg" alt="Couple Picture" />
+    </div>       <span class="proposal"> FOREVER - 2081/05/05</span><br><br>
+
+    <audio autoplay loop controls>
+      <source src="C:/Users/Lenovo/Documents/Meri maya fula jasti  Sparsha Sangeet  Purna Rai and dajubhaiharu  lyrics video (1).mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <!-- Falling elements script -->
+  <script>
+    const symbols = ["💖", "🎂", "🎈", "💞", "❤️", "🎉", "🎁"];
+    const createFalling = () => {
+      const elem = document.createElement('div');
+      elem.className = 'falling';
+      elem.style.left = Math.random() * 100 + 'vw';
+      elem.style.animationDuration = (Math.random() * 5 + 5) + 's';
+      elem.innerText = symbols[Math.floor(Math.random() * symbols.length)];
+      document.body.appendChild(elem);
+      setTimeout(() => elem.remove(), 10000);
+    };
+    setInterval(createFalling, 300);
+  </script>
+
+</body>
+</html>
+
